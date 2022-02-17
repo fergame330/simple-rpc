@@ -2,7 +2,7 @@ const RPC = require("discord-rpc");
 const rpc = new RPC.Client({
     transport: "ipc"
 });
-let id = "943924909980131349"
+let id = ""
 
 rpc.on("ready", () => {
     rpc.setActivity({
